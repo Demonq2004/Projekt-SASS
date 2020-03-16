@@ -23,7 +23,8 @@
 		display: block;
 		text-align: center;
 			&:hover{
-				background-color: #333;
+				background-color: lighten($deepBlue, 6);
+				// lighten rozjaśnia dany kolor
 			}
 
 	}
@@ -69,7 +70,8 @@ section h1{
 		color: $deepBlue;
 		font-weight: bold;
 		&:hover{
-			color:red;
+			color: complement($deepBlue);
+			// Szczerze nie wiem co robi complement, ale wydaje mi się że zmienia ten kolor na kontrastującu
 		}
 	}
 	ul{
