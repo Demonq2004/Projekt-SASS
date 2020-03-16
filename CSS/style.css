@@ -35,15 +35,12 @@ li {
   #main-nav li {
     float: left;
     width: 16.6666666667%; }
-    @media screen and (min-width: 0px) {
+    @media screen and (max-width: 600px) and (min-width: 300px) {
       #main-nav li {
         width: 100%; } }
-    @media screen and (min-width: 600px) {
+    @media screen and (max-width: 1000px) and (min-width: 500px) {
       #main-nav li {
         width: 50%; } }
-    @media screen and (min-width: 1200px) {
-      #main-nav li {
-        width: 16.6666666667%; } }
   #main-nav a {
     color: #f8f9fb;
     text-decoration: none;

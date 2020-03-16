@@ -15,14 +15,11 @@
 	li{
 		float: left;
 		width: (100% / 6);
-		@include mQ(0px){
-			width: 100%
+		@include mQ(600px,300px){
+			width: 100%;
 		}
-		@include mQ(600px){
+		@include mQ(1000px,500px){
 			width: 50%;
-		}
-		@include mQ(1200px){
-			width: (100% / 6);
 		}
 	}
 	a{
