@@ -113,4 +113,18 @@ section h1 {
     display: block;
     clear: both; }
 
+#projects li {
+  float: left;
+  margin-right: 5%;
+  margin-bottom: 5%;
+  width: 21.25%; }
+  #projects li:nth-child(4n) {
+    margin-right: 0; }
+  #projects li img {
+    width: 100%; }
+
+li a img {
+  width: 200px;
+  height: 200px; }
+
 /*# sourceMappingURL=style.css.map */

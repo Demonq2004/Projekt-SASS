@@ -74,6 +74,17 @@ section h1{
 	}
 	ul{
 		@include clearFix;
-		
+
 	}
+}
+
+#projects li{
+	@include grid(4, 5%);
+	img{
+		width: 100%;
+	}
+}
+li a img{
+	width: 200px;	//Taki mój bonusik :>
+	height: 200px;	
 }
