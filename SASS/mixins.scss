@@ -41,3 +41,9 @@
 	}
 }
 //$cols - liczba zdjęć w kolumnie , $mgn - margin, grid powoduje ustawianie się zdjęć i jaką mają zajmować powierzchnię dane zdjęcie np $cols = 4, $mgn = 5% to (100 - ((4-1) * 5) / 4 = 21,25% <- tyle zajmuje 1-no zdjecie jeśli w kolumnie znajdują się 4 zdjęcia 
+@mixin mQ($arg){
+	@media screen and (min-width: $arg){
+		@content;
+	}
+}
+// Zmieniłem MAX-WIDTH na MIN-WIDTH aby mógł zrobić więcej elementów
