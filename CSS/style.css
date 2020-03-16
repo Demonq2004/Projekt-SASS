@@ -28,6 +28,10 @@ li {
   #main-nav ul {
     width: 100%;
     list-style: none; }
+    #main-nav ul:after {
+      content: "";
+      display: block;
+      clear: both; }
   #main-nav li {
     float: left;
     width: 14%; }
@@ -37,10 +41,8 @@ li {
     padding: 16px;
     display: block;
     text-align: center; }
-  #main-nav #main-nav ul:after {
-    content: "";
-    display: block;
-    clear: both; }
+    #main-nav a:hover {
+      background-color: #333; }
 
 section h1 {
   font-size: 24px;

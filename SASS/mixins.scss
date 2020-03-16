@@ -22,3 +22,11 @@
 		margin-bottom: 30px;
 	}
 }
+// & - powoduje że nie musimy przepisywać danej klasy lub id, np. class="dom" to jeśli użyjemy &:after, to nie musimy przepisywać dom:after
+@mixin clearFix{
+	&:after{
+		content: "";
+		display: block;
+		clear: both;
+	}
+}
