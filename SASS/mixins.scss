@@ -16,6 +16,9 @@
 		display: block;
 		text-transform: uppercase;
 		font-weight: bold;
+		@include mQ(3000px, 1200px){
+			font-size: 68px;
+		}
 	}
 	span.title{
 		font-weight: bold;
